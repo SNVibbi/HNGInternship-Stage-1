@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.profile p {
+    font-size: 1.2em;
+}
+
+.current-info, .links, .goals {
+    margin: 20px 0;
+}
+
+.links a {
+    display: block;
+    margin: 10px 0;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.goals ul li {
+    display: block;
+    margin: 10px 0;
+}
+
+.links, .goals, .current-info {
+    border: 10px solid #333;
+}
