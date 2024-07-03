@@ -44,3 +44,39 @@ h1, h2 {
 .links, .goals, .current-info {
     border: 10px solid #333;
 }
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .profile p {
+        font-size: 1em;
+    }
+
+    .links a {
+        font-size: 0.9em;
+    }
+
+    h1, h2{
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 400px) {
+    .container {
+        padding: 5px;
+    }
+
+    .profile p {
+        font-size: 0.9em;
+    }
+
+    .links a {
+        font-size: 0.8em;
+    }
+
+    h1, h2 {
+        font-size: 1.2em;
+    }
+}
+
